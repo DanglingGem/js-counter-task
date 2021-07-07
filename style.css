@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.hero-container{
+    margin: auto;
+    width: 50%;
+    height: 90vh;
+    position: relative;
+    top: 2rem;
+    text-align: center;
+    color: #f5f5f5;
+    background-image: linear-gradient(90deg,#b29369, #b2936a,  #6b5236, #fff1db );
+}
+.mini-container{
+    margin: auto;
+    width: 70%;
+    height: 80vh;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0px 9px 7px #1e1811;
+    position: relative;
+    top: 2rem;
+}
+.mini-container h1{
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+#value{
+    font-size: 9rem;
+    font-weight: bold;
+    color: #008000;
+}
+.btn-container{
+    display: grid;
+    padding-top: 1rem;
+    padding-left: 9rem;
+}
+button{
+    width: 50%;
+    height: 6vh;
+    margin: 1rem;
+    background-color: #0f243f;
+    color: #f5f5f5;
+    border-style: solid;
+    border-color: #0f243f;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    box-shadow: 0px 6px 8px #1e1811;
+    cursor: pointer;
+}
+#add-btn{
+    width: 40%;
+    margin-left: 2rem;
+}
+button:hover{
+    background-color: transparent;
+    border-style: solid;
+    border-color: transparent;
+}
