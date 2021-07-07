@@ -17,13 +17,6 @@ btns.forEach(function (btn) {
         }else {
             count = 0;
         }
-        
-        if(count === 0){
-            return count;
-        }
-        if (count === 50){
-            return count;
-        }
         value.textContent = count;
     });
 });
