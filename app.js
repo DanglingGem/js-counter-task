@@ -1,22 +1,22 @@
-// set initial value to zero
 let count = 0;
-// select buttons
+
 const value = document.querySelector("#value");
-const btns = document.querySelectorAll(".btn");
-//console.log();
+const lowerBtn = document.querySelector("#lower-btn");
+const addBtn = document.querySelector("#add-btn");
 
 
-
-btns.forEach(function (btn) {
-    btn.addEventListener("click", function (e) {
-        const styles = e.currentTarget.classList;
-        if (styles.contains("lower")) {
-            count--;
-        }else if (styles.contains("add")) {
-            count++;
-        }else {
-            count = 0;
-        }
-        value.textContent = count;
-    });
+lowerBtn.addEventListener("click", () => {
+    if(count > 0) {
+        count--;
+        value.innerHTML = count;
+    }
 });
+
+addBtn.addEventListener("click", () => {
+    if(count < 50) {
+        count++;
+        value.innerHTML = count;
+    }
+});
+
+
