@@ -11,7 +11,6 @@ body{
 }
 .hero-container{
     margin: auto;
-    width: 50%;
     height: 90vh;
     position: relative;
     top: 2rem;
@@ -44,7 +43,7 @@ body{
 .btn-container{
     display: grid;
     padding-top: 1rem;
-    padding-left: 9rem;
+    padding-left: 18rem;
 }
 button{
     width: 50%;
@@ -61,7 +60,7 @@ button{
 }
 #add-btn{
     width: 40%;
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
 button:hover{
     background-color: transparent;
