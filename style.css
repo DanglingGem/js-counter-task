@@ -82,3 +82,23 @@ a img{
 a p{
     font-family: "Roboto", sans-serif;
 }
+@media screen and (max-width: 375px){
+    .mini-container h1{
+        font-size: 2rem; 
+    }
+    #value{
+        margin-top: 4rem;
+        font-size: 5rem;
+    }
+    .btn-container{
+        display: grid;
+        padding-top: 3rem;
+        padding-left: 4rem;
+    }
+    button{
+        font-size: 0.8rem;
+    }
+    #add-btn{
+        margin-left: 1.6rem;
+    }
+}
