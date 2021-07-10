@@ -82,7 +82,7 @@ a img{
 a p{
     font-family: "Roboto", sans-serif;
 }
-@media screen and (max-width: 375px){
+@media only screen and (max-width: 375px){
     .mini-container h1{
         font-size: 2rem; 
     }
